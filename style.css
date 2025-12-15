@@ -21,7 +21,7 @@ main{
 
 .primary-text{
     font-weight: semi-bold;
-    color:#0E0E0E;
+    color:rgba(14, 14, 14, 0.5);
 }
 
 /* header section */
@@ -76,13 +76,13 @@ background-color: #C6E4D6;
 .overveiw-cards{
     display: flex;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 32px;
 }
-.overveiw-card{
+.overview-card{
     background-color: #F5F5F5;
-    border: 1px solid;
+    box-shadow: rgba(14, 14, 14, 0.15);
+ cursor: pointer;
     border-radius: 16px;
     padding: 24px;
     width: 100%;
-    text-align: center;
 }
