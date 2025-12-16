@@ -10,16 +10,6 @@ main {
     margin: 0px 60px 0px 60px;
 }
 
-.primary-button {
-    cursor: pointer;
-    background-color: #006A50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-weight: semi-bold;
-    padding: 10px;
-}
-
 .title-text {
     font-size: 30px;
 }
@@ -160,4 +150,21 @@ nav ul li button {
 .vision-card img {
     height: 64px;
     width: 64px;
+}
+/* Quote container */
+.quote-container {
+    margin-top: 80px;
+    background-color: rgba(247, 242, 242, 0.979);
+    border: 1px solid whitesmoke;
+    border-radius: 16px;
+}
+.quote-description{
+    background-image: url('./assets/quote-bg.png');
+    background-size: 64px;
+    background-position:24px 23px ;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+}
+.quote-description h5{
+    margin-bottom: 3px;
 }
