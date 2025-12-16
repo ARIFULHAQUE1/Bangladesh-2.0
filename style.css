@@ -1,15 +1,16 @@
 /* shared style */
 .fira-sans-bold {
-  font-family: "Fira Sans", sans-serif;
-  /* font-weight: 700; */
-  font-style: normal;
-  font-variation-settings: "width" 100;
+    font-family: "Fira Sans", sans-serif;
+    /* font-weight: 700; */
+    font-style: normal;
+    font-variation-settings: "width" 100;
 }
 
-main{
+main {
     margin: 0px 60px 0px 60px;
 }
-.primary-button{
+
+.primary-button {
     cursor: pointer;
     background-color: #006A50;
     color: white;
@@ -19,16 +20,60 @@ main{
     padding: 10px;
 }
 
-.primary-text{
+.title-text {
+    font-size: 30px;
+}
+
+.primary-text {
     font-weight: semi-bold;
-    color:rgba(14, 14, 14, 0.5);
+    color: rgba(14, 14, 14, 0.5);
+}
+
+.primary-bg {
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.secondary-bg {
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.rare-bg {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.primary-button {
+    cursor: pointer;
+    background-color: rgba(9, 161, 92, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+
+.secondary-button {
+    cursor: pointer;
+    background-color: rgba(84, 144, 245, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
+}
+
+.rare-button {
+    cursor: pointer;
+    background-color: rgba(255, 194, 57, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 11px 20px;
 }
 
 /* header section */
-header{
-   margin: 0 60px 24px 60px;
+header {
+    margin: 0 60px 24px 60px;
 }
-nav{
+
+nav {
 
     display: flex;
     justify-content: space-between;
@@ -36,11 +81,12 @@ nav{
     /* margin: 0 160px 24px 160px; */
 }
 
-nav ul{
-    
+nav ul {
+
     list-style: none;
-   
+
 }
+
 nav ul li button {
     font-weight: semi-bold;
     color: rgba(0, 106, 80, 1);
@@ -49,40 +95,69 @@ nav ul li button {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
-    padding: 5px;  
+    padding: 5px;
 }
-    
+
 /* banner section */
 
-.banner{
+.banner {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: auto;
     padding: 30px;
     border-radius: 24px;
-background-color: #C6E4D6;
+    background-color: #C6E4D6;
 }
-.banner-pic{
+
+.banner-pic {
     height: 400px;
     width: 474.03px;
 }
 
 /* MAIN SECTION */
-.overveiw-container{
+.overveiw-container {
     margin-top: 60px;
-    
+
 }
-.overveiw-cards{
+
+.overveiw-cards {
     display: flex;
     gap: 30px;
     margin-top: 32px;
 }
-.overview-card{
+
+.overview-card {
     background-color: #F5F5F5;
     box-shadow: rgba(14, 14, 14, 0.15);
- cursor: pointer;
+    cursor: pointer;
     border-radius: 16px;
     padding: 24px;
     width: 100%;
+}
+
+.overview-card img {
+    height: 64px;
+    width: 64px;
+}
+
+/* Vision section */
+
+.vision-container {
+    margin-top: 80px;
+}
+
+.vision-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 32px;
+}
+
+.vision-card {
+    border-radius: 16px;
+    padding: 24px;
+}
+.vision-card img {
+    height: 64px;
+    width: 64px;
 }
