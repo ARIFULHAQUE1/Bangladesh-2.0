@@ -57,6 +57,14 @@ main {
     border-radius: 8px;
     padding: 11px 20px;
 }
+.selection-button{
+    cursor: pointer;
+    background-color: rgba(198, 228, 214, 1);
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px 10px 5px 5px;
+}
 
 /* header section */
 header {
@@ -147,24 +155,68 @@ nav ul li button {
     border-radius: 16px;
     padding: 24px;
 }
+
 .vision-card img {
     height: 64px;
     width: 64px;
 }
+
 /* Quote container */
 .quote-container {
     margin-top: 80px;
-    background-color: rgba(247, 242, 242, 0.979);
-    border: 1px solid whitesmoke;
+    border: 1px solid rgba(0, 106, 80, 1);
     border-radius: 16px;
 }
-.quote-description{
+
+.quote-description {
     background-image: url('./assets/quote-bg.png');
     background-size: 64px;
-    background-position:24px 23px ;
+    background-position: 24px 23px;
     background-repeat: no-repeat;
     padding: 48px 24px;
 }
-.quote-description h5{
+
+.quote-description h5 {
     margin-bottom: 3px;
+}
+
+/* poll section */
+.poll-container {
+    margin: 80px 0 80px 0;
+}
+
+.poll-option {
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px rgb(244, 240, 240,0.6);
+    padding: 32px;
+    border-radius: 15px;
+}
+
+table {
+    border-radius: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(198, 228, 214, 1);
+    padding: 24px;
+    margin: 0;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: medium;
+    font-weight: bold;
+}
+
+table td {
+    border: 1px solid rgb(216, 212, 212);
+    padding: 24px;
+}
+.selection{
+    text-align: center;
 }
