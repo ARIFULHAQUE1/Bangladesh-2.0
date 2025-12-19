@@ -265,3 +265,52 @@ table td {
     padding: 48px;
     background-color: white;
 }
+/* Donatation section */
+.donate-container{
+    text-align: center;
+}
+.funds{
+margin: 32px 104px 32px 104px ;
+}
+.amounts{
+    display: flex;
+    justify-content:space-evenly;
+    /* gap: 24px; */
+    align-items: center;
+    
+}
+.select-amount{
+    /* width: auto; */
+    height: 128px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    margin-right: 24px;
+}
+.selected-amount{
+    background-color:#C6E4D6 ;
+}
+.custom-amount{
+    margin: 32px 0px 32px 0px;
+    padding: 5px;
+    background-color: white;
+}
+/* newsLetter container */
+.newsletter-container{
+    background-color:#C6E4D6 ;
+}
+.subcription{
+    text-align: center;
+    padding: 80px 265px 80px 265px;
+}
+.email-adress{
+    border: none;
+    border-radius: 8px;
+    padding: 10px 200px 10px 40px;
+}
+form{
+    width:fit-content;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
