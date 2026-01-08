@@ -100,7 +100,9 @@ nav ul li button {
 }
 
 /* banner section */
-
+.title-text{
+    font-size: 2.8rem;
+}
 .banner {
     display: flex;
     justify-content: center;
@@ -111,9 +113,11 @@ nav ul li button {
     background-color: #C6E4D6;
 }
 
-.banner-pic {
-    height: 400px;
-    width: 474.03px;
+.banner-pic img{
+    width: 100%;
+}
+.banner-title{
+    width: 50%;
 }
 
 /* MAIN SECTION */
